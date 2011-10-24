@@ -1,0 +1,44 @@
+body, html { font-family:'Helvetica Neue'; background-color:white; font-weight:200; position:relative; background-color:#202020; }
+
+.header { z-index: 2000; width:100%; height:100px; background-repeat:repeat-x; background-image:url('img/header.png'); }
+.header #title { cursor:pointer; width:960px; margin:auto;  padding:20px; padding-top:10px;font-size:36px; font-weight:100; color:#abc326;}
+.arrows { z-index: 100; background-image:url('img/arrows_932-788.png'); width:932px; height:788px; position:absolute; top:150px; }
+.wrapper { z-index: 1000; width:900px; margin:auto; position:relative; margin-bottom:100px; }
+.wrapper .content { padding:20px; z-index: 1000; background-image:url('img/wrapper.png'); background-repeat:repeat; width:900px; min-height:250px; margin-left:-20px; }
+.wrapper .content h1 { font-weight: 300; font-size:22px; }
+
+
+.datacapture { opacity:0.0; }
+.datacapture input { color:gray; width:365px; height:40px; font-size:35px; border:1px solid black; padding:3px; margin-bottom:20px;} 
+.datacapture #dob input { width:80px; text-align:center; }
+.datacapture #dob #yy { width:180px; }
+.datacapture #colors {  height:50px; }
+.datacapture #colors div { cursor:pointer; width:50px; height:50px; border:5px solid transparent; border-radius:10px; float:left; margin-right:20px; }
+.datacapture #colors #active { border:5px solid silver; }
+.datacapture #save { cursor:pointer; position:absolute; bottom:10px; right:5px; border:1px solid gray; font-size:35px; padding:3px; background-color:#202020; color:white; border-radius:5px;}  
+.datacapture #save:hover { color:#abc326; } 
+
+
+a{ color:#f7f7f7; text-decoration:none;}
+
+.list { width:100%; }
+.list #element { width:100%; height:30px; margin-bottom:10px; clear:both;  }
+.list #element div { width:200px; float:left; }
+.list #element #color { width:20px; height:20px; } 
+
+
+#notice { position:absolute; width:500px; height:200px; top:20px; right:5px;} 
+#notice p { cursor:pointer; margin-bottom:5px; height:20px; background-color:silver; color:red; padding:3px; } 
+
+.menu { width:100%; height:50px; } 
+.menu li { cursor:pointer; float:left; margin-right:20px; background-color:#202020; color:#f7f7f7; padding:5px }
+.menu li a:hover { color:#abc326; } 
+
+.red { background-color:#da5252; }
+.blue { background-color:#176ccc; }
+.green { background-color:#7ada78; }
+.purple { background-color:#e68ee5; }
+.black { background-color:#413d3d; }
+
+.stats #users { font-size:22px; color:white; background-color:#202020; margin-bottom:10px;}
+.stats #differentColors { color:white; font-size:22px; }
